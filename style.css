@@ -1,61 +1,51 @@
-body {
-    padding: 0;
+.body {
     margin: 0;
+    padding: 0;
 }
 
 .main {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(116.82deg, #8BEAFF 0%, rgba(217, 217, 217, 0) 61.46%);
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
 }
 
 .navigation {
+
     display: flex;
 }
 
-
-.navigation-links-container,
-.get-start-container {
-    padding-top: 20px;
+.navigation-container,
+.container-start {
+    padding-top: 24px;
 }
 
-.navigation-links-container a {
-    padding-left: 58px;
+.navigation-container a {
+    padding-left: 59px;
     text-decoration: none;
-
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    color: #7A7A7A;
-}
-
-.get-start-container a {
-    text-decoration: none;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
     /* identical to box height */
-    /* padding-left: 19px;
-    padding-top: 11px; */
-    padding: 19px 11px;
-    border: 1px solid #07ACF3;
-    color: #07ACF3;
+
+
+    color: #767676;
 
 }
+.container-start a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #767676;
+        
 
 
-.logo-box{
-    margin-left: 101px;
-}
-.navigation-links-container{
-    margin-left: 217px;
-}
-
-.get-start-container{
-    margin-left: 217px;
 }
