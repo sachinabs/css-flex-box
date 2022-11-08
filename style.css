@@ -11,15 +11,10 @@
     background: #FFFFFF;
 }
 
-.navigation {
-
+.navigation-container {
     display: flex;
 }
 
-.navigation-container,
-.container-start {
-    padding-top: 24px;
-}
 
 .navigation-container a {
     padding-left: 59px;
@@ -35,17 +30,58 @@
     color: #767676;
 
 }
+
 .container-start a {
+    padding-left: 161;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     /* identical to box height */
-    
-    
+
+
     color: #767676;
-        
 
 
+
+}
+
+.left {
+    margin-left: 100px;
+    padding-top: 45.42px;
+}
+
+.container-start {
+    padding-top: 75px;
+}
+
+.container-start a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 99px;
+}
+
+.container-start span {
+    background: #3F46AD;
+    border-radius: 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 18px 40px;
+
+   
+    /* identical to box height */
+
+
+    color: #FFFFFF
+}
+.box{
+    Fill: Solid
+#1A1938
 }
