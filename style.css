@@ -52,8 +52,10 @@
     padding-top: 45.42px;
 }
 
+
 .container-start {
     padding-top: 75px;
+    padding-left: 161px;
 }
 
 .container-start a {
@@ -75,13 +77,162 @@
     line-height: 24px;
     padding: 18px 40px;
 
-   
+
+
     /* identical to box height */
 
 
     color: #FFFFFF
 }
-.box{
-    Fill: Solid
-#1A1938
+
+.register-container {
+    display: flex;
+    margin-top: 53px;
+
+}
+
+.register-container {
+    background-color: #1A1938;
+}
+
+.register-container img {
+    margin-left: 368px;
+    padding-top: 51px;
+
+}
+.register-container span{
+padding: 14px 55px;
+   
+}
+.register-container span{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+margin-left: 14px;
+padding-top: 55px;
+
+}
+.register-container p{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+padding: 18px 36px;
+
+/* identical to box height */
+
+
+color: #FFFFFF;
+background: #3F46AD;
+border-radius: 9px;
+padding-left: 36px;
+
+margin-left: 882px;
+margin-right: 367px;
+
+}
+
+.contant-container{
+    display: flex;
+    flex-direction: row;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.image-container{
+    margin-left: 145px;
+    padding-top: 71px;
+}
+.title{
+    padding-left: 103px;
+    padding-top: 72px;
+    font-family: 'Spectral';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 97px;
+
+color: #000000;
+    
+}
+.description span{
+    
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 184.19%;
+/* or 46px */
+
+
+color: #000000;
+margin-left: 103px;
+margin-right: 144px;
+padding-left: 103px;
+}
+.text-element{
+    display: flex;
+    width: 384px;
+    height: 60px;
+    border: 1px solid #6C6C6C;
+border-radius: 9px;
+}
+.text-element{
+    flex-direction: row;
+}
+.text-element span{
+    
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+background: #3F46AD;
+border-radius: 9px;
+padding: 18px 43px;
+}
+.sign-in{
+    display: flex;
+    flex-direction: row;
+}
+.sign-in{
+    padding-top: 33px;
+}
+.sign-in p{
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 184.19%;
+/* or 29px */
+
+
+color: #000000;
+}
+.sign-in span{
+    padding-left:20px ;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 184.19%;
+/* or 29px */
+
+
+color: #3F46AD;
+
 }
